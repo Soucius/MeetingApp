@@ -26,3 +26,5 @@ C:\Users\Soucius\Desktop\aspnetcore-dersleri\MeetingApp\obj\Debug\net8.0\ref\Mee
 C:\Users\Soucius\Desktop\aspnetcore-dersleri\MeetingApp\obj\Debug\net8.0\MeetingApp.sourcelink.json
 C:\Users\Soucius\Desktop\aspnetcore-dersleri\MeetingApp\obj\Debug\net8.0\MeetingApp.RazorAssemblyInfo.cache
 C:\Users\Soucius\Desktop\aspnetcore-dersleri\MeetingApp\obj\Debug\net8.0\MeetingApp.RazorAssemblyInfo.cs
+C:\Users\Soucius\Desktop\aspnetcore-dersleri\MeetingApp\bin\Debug\net8.0\libman.json
+C:\Users\Soucius\Desktop\aspnetcore-dersleri\MeetingApp\bin\Debug\net8.0\MeetingApp.staticwebassets.runtime.json
