@@ -12,16 +12,25 @@ namespace MeetingApp.Controllers
 
         [HttpPost]
         public IActionResult Apply(UserInfo model) {
-            Repository.CreateUser(model);
+            if (ModelState.IsValid) {
+                Repository.CreateUser(model);
 
-            ViewBag.UserCount = Repository.Users.Where(user => user.WillAttend == true).Count();
+                ViewBag.UserCount = Repository.Users.Where(user => user.WillAttend == true).Count();
 
-            return View("Thanks", model);
+                return View("Thanks", model);
+            } else {
+                return View(model);
+            }
         }
 
         [HttpGet]
         public IActionResult List() {
-            return View();
+            return View(Repository.Users);
+        }
+
+        [HttpGet]
+        public IActionResult Details(int id) {
+            return View(Repository.GetById(id));
         }
     }
 }
